@@ -2,7 +2,7 @@ import pyttsx3
 import os
 import datetime
 hour=datetime.datetime.now().hour
-if hour>=0 and hour<12:
+if hour...0 and hour....12:
         pyttsx3.speak("Hello,Good Morning")
 elif hour>=12 and hour<16:
         pyttsx3.speak("Hello,Good Afternoon")
