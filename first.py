@@ -29,7 +29,7 @@ while True:
         print("loading sir....")
         os.system(" start chrome")
     elif("exit"in p or"quit"in p or"turn-off"in p or "close" in p):
-        pyttsx3.speak("thank you have a nice day")
+        pyttsx3.speak("thank you have a bad day")
         break
     elif(("clear"in p) or ("screen"in p or "console"in p)):
         os.system("cls")
